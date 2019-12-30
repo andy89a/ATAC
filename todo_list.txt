@@ -3,4 +3,7 @@ Todo list
 1. eat
 
 2. sleep
-dd
+
+3. wake up
+
+confrim to save and commit
