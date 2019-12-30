@@ -25,3 +25,5 @@ def Log_Direcory(path_dir):
 if __name__=="__main__": #왜 넣는거지??
     Log_Direcory(path1)
     Log_Direcory(path2)
+
+    #git test 중입니다
