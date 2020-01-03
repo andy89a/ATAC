@@ -1,5 +1,6 @@
 import os
 import csv
+import sys
 
 path1 = 'C:/Users/user/Documents/python-workspace'
 path2 = 'C:/Users/user/Documents/python_test'
@@ -9,7 +10,9 @@ def Find_Error(logfile):
         reader = csv.reader(kd, delimiter=',')
         for row in reader:
             if row[1] in logfile:
-                print("로그명 :", row[0], "에러 로그 :", row[1], "증상 요약 :", row[2], "관련 Works 번호 :", row[3])
+                sys.stdout = open('Result.txt', 'w')
+                print("로그명 :", row[0], "\n에러 로그 :", row[1], "\n증상 요약 :", row[2], "\n관련 Works 번호 :https://works.ahnlab.com/", row[3], "\n\n")
+
 
 
 def Log_Direcory(path_dir):
