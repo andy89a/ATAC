@@ -1,0 +1,59 @@
+로그명,에러 로그,증상 요약,관련 Works 번호
+push_manager.log,Max connection number exceeded,MDS Agent 네트워크 연결 불가,MDS-13486
+twc_error.log,bad argumnet error,twc.ini 업데이트가 안되어 MDSA 정책 수정 불가,MDS-13697
+twc_system.log,"is duplicated.
+Command was: ALTER TABLE ONLY twc.client",DV - HC 동기화 불가,MDS-14107
+twc_policy_migration.log,Migration Failed,MDS 2.1.13으로 MDSA 정책 마이그레이션 실패,MDS-13027
+twc_scheduler.log,[twc_cmd.sh] AgentInstall fail.,twc_cmd.sh 호출 실패(14이전에는 fail 없음),MDS-14342
+twc_upgrade.log,fail to mount device,펌웨어 업그레이드 불가,MDS-13584
+twc_system.log,) is duplicated.,"HC service stop 후, 동기화 진행",MDS-14107
+twc_logdeliver.log,deact legacy log done,MTA에서 HC 서비스 off,MDS-13216
+db_inserter.log,403/duplicate key value,"mp_agent에서 동일한 sendor_event_id를 전달하기 때문에 발생
+일부 로그가 유실 될 수 있음",MDS-14571
+log_redirector.log,SSL write error: error,"log_redirector 자원 점유 불가로, WEB 접속 불가",MDS-13934
+dmesg,ndex 1073135 > max index 2048,pf_ring 이슈로 인해 재부팅 될 수 있음,MDS-14237
+dmesg,echo 0 > /proc/sys/kernel/hung_task_timeout_secs,pf_ring 이슈로 인해 재부팅 될 수 있음,MDS-13928
+snmpd.log,Failure in sendto,간헐적으로 SNMP 응답을 하지 못함,MDS-13963
+dmesg,d_shrink_del,pf_ring 이슈로 인해 재부팅 될 수 있음,"MDS-13552
+MDS-13758"
+log_redirector.log,Segmentation Fault(/data/syslog/debug/debug_log_redirector,알 수 없음.. 로그 유실 추정,MDS-13440
+db_inserter.log,EXEC SQL SET AUTOCOMMIT TO OFF succes,MDS Manager CPU 과점유 및 탐지현황 무한 루프,MDS-13520
+dmesg,segfault,"알수 없으나, 정상적인 경우는 아님..",MDS-13594
+vacuum.log,"scan_malware\"": found",로그 유실 발생,MDS-13833
+error.log,Address already in use,"nginx 데몬 비정상 동작, 대응 명령 전달 안됨",MDS-14302
+vm_manager.log,[recv] name : (null),로그파일명에 NULL 표시,MDS-14627
+as_agent.log,request 0000000,로그파일명에 NULL 표시,MDS-14627
+vm_manager.log,enqueue request,agent 데몬 점검 필요,
+atl_aesm.log,gw for request error:bind: Address already in use,"nginx 데몬 비정상 동작, 대응 명령 전달 안됨",MDS-14302
+uf_agent_00.log,failed to download the url,도메인에 대한 URL 검사 미진행,MDS-14229
+update_debug.log,Suarez return code : 52,국가 코드 82 확인,MDS-13826
+update_debug.log,update error,국가 코드 82 확인,MDS-13826
+vm_manager.log,Got an error 24,vm_manager 와 다른 Agent 간의 socket 통신 실패로 인한 fd 증가,MDS-13698
+dmesg,rcu_sched,커널 Hang 이슈,MDS-13552
+dmesg,NMI backtrace for cpu,커널 Hang 이슈,MDS-13552
+mem_monitor,vm_manger is not working,vm_manager 미동작,
+mds_server_00.log,decrypt_cookie failed,MDS Agent Hang 증상,"MDS-13045
+MDS-13711
+MDS-13306"
+mds_server_00.log,bind Error,mds_server 가 50502 port 점유 실패로 인해 데몬 기동 불가,"MDS-14330
+MDS-13548"
+mds_server_00.log,svr_ipc.request error,vm_manager <> mds_server IPC 실패,MDS-11534
+mds_server_00.log,filename : tmp,MDS - TG 연동 시 파일명이 tmp로 표시되는 이슈,MDS-13283
+mds_server_00.log,failed to open file,/file_db_hdd 내 용량 부족으로 파일 복사 불가,"MDS-14442
+MDS-13728"
+cm_agent_00.log,Cosmos timeout,cosmos engine fail ,MDS-13936
+mp_agent_00.log,request 0000000000000000,wml 파일에 대해서 비정상적으로 분석 함,"MDS-13509
+MDS-14627"
+np_agnet_00.log,fail to scan file,네트워크 오류로 인한 nq_agent 미동작,MDS-14346
+cf_agent_00.log,mount error,"umount 되지 않으며, scan 경로의 파일을 분석하지 못함",MDS-13225
+cf_agent_00.log,fail make file,cf_agent에서 2G 이상의 파일 처리를 못함,MDS-14432
+debug_process_manager.log,Try it /utm/bin/mta_manager,반복적으로 재기동 될 경우 MTA 이슈로 추정,MDS-14194
+ts_agent_00.log,[error] v3_init fail,/imsi 폴더 full로 인한 TS 엔진 업데이트 불가,MDS-10967
+vm_agent_00.log,Error -22 while loading VM state,"VM 분석하지 못함, vm queue 및 fail count 다수 발생",MDS-14317
+fd_agent_00.log,index db init failed,"DISK FULL로 발생하여, fd_agent가 지속적으로 재기동 됨",MDS-14443
+ts_agent_00.log,get reinit signal 10,"ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음",MDS-14406
+db_agnet_00.log,db_add error,leveldb 수정,MDS-12667
+db_agnet_00.log,connection error,leveldb 수정,MDS-12667
+smtp.log,Segmentation Fault is caught,RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정,"MDS-14309, MDS-14376"
+yr_agent_00.log,"request 565467efeae8d8f3 7222
+[20200106 09:58:19]",최진형,MDS-test

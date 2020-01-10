@@ -1,0 +1,938 @@
+로그명: cm_agent_00.log 
+에러 로그: Cosmos timeout 
+증상 요약: cosmos engine fail  
+관련 Works 번호: https://works.ahnlab.com/MDS-13936 
+
+
+로그명: db_inserter.log 
+에러 로그: EXEC SQL SET AUTOCOMMIT TO OFF succes 
+증상 요약: MDS Manager CPU 과점유 및 탐지현황 무한 루프 
+관련 Works 번호: https://works.ahnlab.com/MDS-13520 
+
+
+로그명: debug_process_manager.log 
+에러 로그: Try it /utm/bin/mta_manager 
+증상 요약: 반복적으로 재기동 될 경우 MTA 이슈로 추정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14194 
+
+
+로그명: dmesg.1 
+에러 로그: segfault 
+증상 요약: 알수 없으나, 정상적인 경우는 아님.. 
+관련 Works 번호: https://works.ahnlab.com/MDS-13594 
+
+
+로그명: dmesg.2 
+에러 로그: segfault 
+증상 요약: 알수 없으나, 정상적인 경우는 아님.. 
+관련 Works 번호: https://works.ahnlab.com/MDS-13594 
+
+
+로그명: dmesg.3 
+에러 로그: segfault 
+증상 요약: 알수 없으나, 정상적인 경우는 아님.. 
+관련 Works 번호: https://works.ahnlab.com/MDS-13594 
+
+
+로그명: mem_monitor 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/MDS-13552 
+
+
+로그명: mem_monitor.1 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/MDS-13552 
+
+
+로그명: mem_monitor.2 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/MDS-13552 
+
+
+로그명: mem_monitor.3 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/MDS-13552 
+
+
+로그명: mem_monitor.4 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/MDS-13552 
+
+
+로그명: mem_monitor.5 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/MDS-13552 
+
+
+로그명: nc_agent_00.log 
+에러 로그: connection error 
+증상 요약: leveldb 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-12667 
+
+
+로그명: nq_agent_00.log 
+에러 로그: fail to scan file 
+증상 요약: 네트워크 오류로 인한 nq_agent 미동작 
+관련 Works 번호: https://works.ahnlab.com/MDS-14346 
+
+
+로그명: nq_agent_00.log.1 
+에러 로그: fail to scan file 
+증상 요약: 네트워크 오류로 인한 nq_agent 미동작 
+관련 Works 번호: https://works.ahnlab.com/MDS-14346 
+
+
+로그명: nq_agent_00.log.1 
+에러 로그: [error] v3_init fail 
+증상 요약: /imsi 폴더 full로 인한 TS 엔진 업데이트 불가 
+관련 Works 번호: https://works.ahnlab.com/MDS-10967 
+
+
+로그명: smtp.log.20191230211328.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191230221846.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191230222107.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191230232108.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231003408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231160707.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231161408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231163408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231170707.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231175408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231185408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231200708.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102200109.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102200208.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102200908.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102202108.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102202907.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102205408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102210207.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102214108.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102214908.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102224107.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102224907.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102235407.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200103000208.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200104092509.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/MDS-14309, MDS-14376 
+
+
+로그명: ts_agent_00.log.1 
+에러 로그: get reinit signal 10 
+증상 요약: ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음 
+관련 Works 번호: https://works.ahnlab.com/MDS-14406 
+
+
+로그명: ts_agent_00.log.2 
+에러 로그: get reinit signal 10 
+증상 요약: ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음 
+관련 Works 번호: https://works.ahnlab.com/MDS-14406 
+
+
+로그명: ts_agent_00.log.3 
+에러 로그: get reinit signal 10 
+증상 요약: ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음 
+관련 Works 번호: https://works.ahnlab.com/MDS-14406 
+
+
+로그명: ts_agent_00.log.4 
+에러 로그: get reinit signal 10 
+증상 요약: ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음 
+관련 Works 번호: https://works.ahnlab.com/MDS-14406 
+
+
+로그명: twc_logdeliver.log 
+에러 로그: deact legacy log done 
+증상 요약: MTA에서 HC 서비스 off 
+관련 Works 번호: https://works.ahnlab.com/MDS-13216 
+
+
+로그명: uf_agent_00.log 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_00.log.1 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_00.log.2 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_00.log.3 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_00.log.4 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_00.log.5 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_01.log 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_01.log.1 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_01.log.2 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_01.log.3 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_01.log.4 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_01.log.5 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_02.log 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_02.log.1 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_02.log.2 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_02.log.3 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_02.log.4 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_02.log.5 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_03.log 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_03.log.1 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_03.log.2 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_03.log.3 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_03.log.4 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: uf_agent_03.log.5 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/MDS-14229 
+
+
+로그명: vm_manager.log 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/ 
+
+
+로그명: vm_manager.log.1 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/ 
+
+
+로그명: vm_manager.log.2 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/ 
+
+
+로그명: vm_manager.log.3 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/ 
+
+
+로그명: vm_manager.log.4 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/ 
+
+
+로그명: vm_manager.log.5 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/ 
+
+
+로그명: yr_agent_00.log 
+에러 로그: request 565467efeae8d8f3 7222
+[20200106 09:58:19] 
+증상 요약: 최진형 
+관련 Works 번호: https://works.ahnlab.com/MDS-test 
+
+
+로그명: cm_agent_00.log 
+에러 로그: Cosmos timeout 
+증상 요약: cosmos engine fail  
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13936 
+
+
+로그명: db_inserter.log 
+에러 로그: EXEC SQL SET AUTOCOMMIT TO OFF succes 
+증상 요약: MDS Manager CPU 과점유 및 탐지현황 무한 루프 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13520 
+
+
+로그명: debug_process_manager.log 
+에러 로그: Try it /utm/bin/mta_manager 
+증상 요약: 반복적으로 재기동 될 경우 MTA 이슈로 추정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14194 
+
+
+로그명: dmesg.1 
+에러 로그: segfault 
+증상 요약: 알수 없으나, 정상적인 경우는 아님.. 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13594 
+
+
+로그명: dmesg.2 
+에러 로그: segfault 
+증상 요약: 알수 없으나, 정상적인 경우는 아님.. 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13594 
+
+
+로그명: dmesg.3 
+에러 로그: segfault 
+증상 요약: 알수 없으나, 정상적인 경우는 아님.. 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13594 
+
+
+로그명: mem_monitor 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13552 
+
+
+로그명: mem_monitor.1 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13552 
+
+
+로그명: mem_monitor.2 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13552 
+
+
+로그명: mem_monitor.3 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13552 
+
+
+로그명: mem_monitor.4 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13552 
+
+
+로그명: mem_monitor.5 
+에러 로그: rcu_sched 
+증상 요약: 커널 Hang 이슈 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13552 
+
+
+로그명: nc_agent_00.log 
+에러 로그: connection error 
+증상 요약: leveldb 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-12667 
+
+
+로그명: nq_agent_00.log 
+에러 로그: fail to scan file 
+증상 요약: 네트워크 오류로 인한 nq_agent 미동작 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14346 
+
+
+로그명: nq_agent_00.log.1 
+에러 로그: fail to scan file 
+증상 요약: 네트워크 오류로 인한 nq_agent 미동작 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14346 
+
+
+로그명: nq_agent_00.log.1 
+에러 로그: [error] v3_init fail 
+증상 요약: /imsi 폴더 full로 인한 TS 엔진 업데이트 불가 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-10967 
+
+
+로그명: smtp.log.20191230211328.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191230221846.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191230222107.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191230232108.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231003408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231160707.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231161408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231163408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231170707.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231175408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231185408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20191231200708.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102200109.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102200208.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102200908.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102202108.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102202907.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102205408.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102210207.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102214108.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102214908.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102224107.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102224907.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200102235407.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200103000208.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: smtp.log.20200104092509.log 
+에러 로그: Segmentation Fault is caught 
+증상 요약: RFC표준을 따르지 않는 메일에 대해서 처리하도록 수정 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14309, MDS-14376 
+
+
+로그명: ts_agent_00.log.1 
+에러 로그: get reinit signal 10 
+증상 요약: ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14406 
+
+
+로그명: ts_agent_00.log.2 
+에러 로그: get reinit signal 10 
+증상 요약: ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14406 
+
+
+로그명: ts_agent_00.log.3 
+에러 로그: get reinit signal 10 
+증상 요약: ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14406 
+
+
+로그명: ts_agent_00.log.4 
+에러 로그: get reinit signal 10 
+증상 요약: ts_agent 데드락 발생, 정상적인 서비스를 보장할 수 없음 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14406 
+
+
+로그명: twc_logdeliver.log 
+에러 로그: deact legacy log done 
+증상 요약: MTA에서 HC 서비스 off 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-13216 
+
+
+로그명: uf_agent_00.log 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_00.log.1 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_00.log.2 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_00.log.3 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_00.log.4 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_00.log.5 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_01.log 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_01.log.1 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_01.log.2 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_01.log.3 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_01.log.4 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_01.log.5 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_02.log 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_02.log.1 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_02.log.2 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_02.log.3 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_02.log.4 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_02.log.5 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_03.log 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_03.log.1 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_03.log.2 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_03.log.3 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_03.log.4 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: uf_agent_03.log.5 
+에러 로그: failed to download the url 
+증상 요약: 도메인에 대한 URL 검사 미진행 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-14229 
+
+
+로그명: vm_manager.log 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/browse/ 
+
+
+로그명: vm_manager.log.1 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/browse/ 
+
+
+로그명: vm_manager.log.2 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/browse/ 
+
+
+로그명: vm_manager.log.3 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/browse/ 
+
+
+로그명: vm_manager.log.4 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/browse/ 
+
+
+로그명: vm_manager.log.5 
+에러 로그: enqueue request 
+증상 요약: agent 데몬 점검 필요 
+관련 Works 번호: https://works.ahnlab.com/browse/ 
+
+
+로그명: yr_agent_00.log 
+에러 로그: request 565467efeae8d8f3 7222
+[20200106 09:58:19] 
+증상 요약: 최진형 
+관련 Works 번호: https://works.ahnlab.com/browse/MDS-test 
+
+
